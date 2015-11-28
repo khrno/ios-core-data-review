@@ -26,6 +26,8 @@
     
     NSError *error;
     
+    NSLog(@"Probando xunique");
+    
     self.failedBankInfos = [managedObjectContext executeFetchRequest:fetchRequest error:&error];
     self.title = @"Failed Banks";
 }
